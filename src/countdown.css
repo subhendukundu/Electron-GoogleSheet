@@ -1,0 +1,61 @@
+.container{
+  width: 100%;
+  background: url('images/Background.png') no-repeat 100% 100% fixed;
+  height: 90vh;
+    background-size: 100%;
+}
+.left-panel{
+  width: 50%;
+  float: left;
+  height: 500px;
+}
+.xt-logo{
+  width: 10%;
+  position: absolute;
+    left: 30%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.right-panel{
+  width: 50%;
+  float: left;
+  height: 500px;
+}
+.logo-container{
+  position: absolute;
+    left: 76%;
+    top: 42%;
+    transform: translate(-50%, -50%);
+}
+.logo-image{
+  height: 50px;
+  width: 50px;
+}
+.login-container{
+  width: 15%;
+  height: 30px;
+  background-color: red;
+  position: absolute;
+    left: 76%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 0;
+    cursor: pointer;
+}
+.login-button{
+  color: white;
+  font-weight: bold;
+  position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.logo-details{
+  width: 254px;
+  color: gray;
+  font-weight: bold;
+  position: absolute;
+    left: 76%;
+    top: 56%;
+    transform: translate(-50%, -50%);
+}

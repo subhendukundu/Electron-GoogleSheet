@@ -1,0 +1,35 @@
+{
+  "name": "electron-googlesheet",
+  "version": "1.0.0",
+  "description": "how to use Google sso and google sheet API with electron",
+  "main": "src/main.js",
+  "private": true,
+  "dependencies": {
+    "async": "^2.3.0",
+    "axios": "^0.16.0",
+    "google-auth-library": "^0.10.0",
+    "googleapis": "^19.0.0",
+    "node-fetch": "^1.6.3"
+  },
+  "devDependencies": {
+    "electron-prebuilt": "^0.37.8"
+  },
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "electron",
+    "google oauth2",
+    "SSO",
+    "single-sign-on",
+    "google spreadsheet",
+    "sheet",
+    "excel sheet"
+  ],
+  "author": "Subhendu"
+}
